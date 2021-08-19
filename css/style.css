@@ -1,0 +1,117 @@
+.navbar{
+    border-bottom: #be1d2c 2px solid;
+}
+.navbar a.navbar-brand{
+    color:#be1d2c ;
+    font-size: 40px ;
+    font-family: 'Playball', cursive;
+    
+}
+.nav-link{
+    color:white !important;
+    font-family: 'Roboto', sans-serif;
+    /*margin-top:30px;*/
+    text-transform: uppercase;
+    transition: color 0.5s ease; 
+}
+.nav-link:hover{
+    color:#be1d2c !important;
+}
+#sliderSection{
+    margin-top:88px;
+}
+.slide{
+    position: relative;
+}
+.Buton{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    opacity: 1;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+
+}
+.Buton .btn-outline-warning{
+    border-radius: 0 ;
+    width: 150px  ;
+    background-color: rgba(red,red,red,.4)
+}
+
+.carousel-caption h4{
+   color: #fff;
+   background-color: rgba(0,0,0,.5)
+}
+.carousel-caption p{
+    color: #fff;
+    background-color: rgba(0,0,0,.5)
+ }
+#hakkimda{
+    margin-top: 50px;
+}
+#hakkimda img{
+    margin-left: -40px;
+}
+#hakkimda h3{
+    color:#be1d2c;
+    border-left:6px solid #be1d2c;
+    padding: 20px;
+}
+#hakkimda p{
+  font-weight: 400;
+  line-height: 35px; 
+}
+
+#cardSection .card-block .resim .col-lg-6{
+  padding-left: 0;
+  padding-right:0;
+}
+.card-block .aciklama{
+    padding-left: 0;
+    padding-right: 0;
+}
+#cardSection .card{ 
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+#cardSection .card:hover{
+    opacity: 1.0;
+}
+button.btn-outline-danger{
+    width: 150px;
+    margin-bottom: 20px;
+    position: relative;
+    border:none;    
+} 
+.modal-title{
+    margin-left: auto;
+    color:#be1d2c;
+    font-weight: 1000;
+
+}
+.fab{
+    font-size: 40px;
+    color:black;
+}
+.fab:hover{
+    color:#1886c7;
+}
+    
+h5.text-center{
+    font-style: italic;
+    color:black;
+    margin-bottom: 100px;
+}
+
+#iletisim{
+    background-color: #f4f5f9;
+}
+#iletisim .input-group-text{
+    width:50px;
+    border-radius: 0;
+    color:white;
+    background-color: #be1d2c;
+}
+#iletisim .form-control,#contact.btn{
+    border-radius: 0;
+}

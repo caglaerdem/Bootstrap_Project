@@ -1,0 +1,55 @@
+.navbar{
+    border-bottom: #be1d2c 2px solid;
+}
+.navbar a.navbar-brand{
+    color:#be1d2c ;
+    font-size: 40px ;
+    font-family: 'Playball', cursive;
+    
+}
+.nav-link{
+    color:white !important;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: color 0.5s ease; 
+}
+.nav-link:hover{
+    color:#be1d2c !important;
+}
+#kalinacakYerler{
+    background-color: #f9f5f4;
+}
+#bilgi .fa-info{
+    color:#be1d2c;
+    margin-top:120px;
+   font-size: 40px;
+}
+#bilgi .fa-info:hover{
+    color: black;
+}
+
+.carousel-caption p{
+    background-color: rgba(0,0,0,.5)
+}
+h6{
+    color:#be1d2c;
+}
+#iletisim{
+    background-color: #f4f5f9;
+}
+#iletisim .input-group-text{
+    width:50px;
+    border-radius: 0;
+    color:white;
+    background-color: #be1d2c;
+}
+#iletisim .form-control,#contact.btn{
+    border-radius: 0;
+}
+.fab{
+    font-size: 40px;
+    color:black;
+}
+.fab:hover{
+    color:#1886c7;
+}
